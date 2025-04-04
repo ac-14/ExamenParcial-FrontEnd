@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: gray;
+}
+
+.component{
+    flex: 1
+
+}
+
+.footer{
+    width: 100%;
+    padding: 25px;
+    background-color: grey;
+}
+
+.layout{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: lightgray;
+}
